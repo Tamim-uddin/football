@@ -64,30 +64,70 @@ body{
     height:380px;
     box-shadow: 5px 3px 10px rgba(0,0,0,0.4);
     margin-bottom: 27px;
-    border-radius: 8px; 
-   
+    border-radius: 8px;   
 }
 .player p{
     font-size: 13px;
-    padding-left: 5px;
-   
-    
-    
+    padding-left: 5px;  
 }
 .player h2{
-    padding-left: 5px;
-   
-   
-}
-
+    padding-left: 5px;  
+}    
 .player img{
     width: 95%;
     height: 200px;
     border-radius: 8px;
     padding-left: 5.5px;
-    padding-top: 8px;
-    
-  
-    
-   
+    padding-top: 8px; 
+}
+
+/*---------
+ goat styel
+ ---------- */
+.football-goats{
+    background-color: cadetblue;
+}
+ .description{
+    text-align: center;
+    margin-top: 100px;
+}
+.description h2{
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    color:orange;
+}
+.description p{
+    color: white;
+}
+.goats{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 100px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+.goat{
+    width: 80%;
+    height: auto;
+    box-shadow: 5px 3px 10px rgba(0,0,0,0.4);
+    background-color: rgba(117, 57, 57, 0.911);
+    border-radius: 10px;
+}
+.goat h2, p{
+    padding-left: 10px;
+}
+.goat h2:hover{
+    transform: scale(1.05);
+}
+.goat img{
+    width: 95%;
+    height: auto;
+    padding-left: 12px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+span{
+    color:orange;
+    font-size: 50px;
 }
