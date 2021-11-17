@@ -12,13 +12,16 @@ body{
    top part style
  --------------------*/
 .top-part{
+    display: flex;
+    flex-wrap: wrap;
+ } 
+.banners{
     background-color: darkcyan;
     width: 100%;
     height: 600px;
     position:relative; 
- } 
-.banner{
-   display: flex;
+    display: flex;
+   
 } 
 .player-info{
     width: 50%;
@@ -61,6 +64,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     margin-top: 100px;
     padding-left: 130px;
+    
 }
 .player{
     width:70%;
@@ -116,6 +120,8 @@ body{
     box-shadow: 5px 3px 10px rgba(0,0,0,0.4);
     background-color: rgba(117, 57, 57, 0.911);
     border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 5px;
 }
 .goat h2, p{
     padding-left: 10px;
@@ -130,6 +136,7 @@ body{
     padding-top: 10px;
     border-radius: 10px;
 }
+
 span{
     color:orange;
     font-size: 50px;
@@ -157,4 +164,14 @@ foot style
     margin-right: 80px;
     margin-top: 10px;
 
+}
+
+@media (max-width: 700px) {
+    .players {
+        grid-template-columns: 1fr;
+    }
+    .goats {
+        grid-template-columns: 1fr;
+    }
+   
 }
